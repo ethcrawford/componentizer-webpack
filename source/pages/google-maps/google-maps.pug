@@ -2,7 +2,11 @@
 extends ../../base.pug
 
 block title
-  | Google Maps
+  | Google Maps | Componentizer
 
 block main
-  h1 Google Maps
+  h1 My Google Maps Demo
+  #map
+  #map-two
+  #map-three
+  script(async defer src='https://maps.googleapis.com/maps/api/js?key=AIzaSyCd7QQXtACutzYIgmKk2BR1H-GkDs2c8_s&callback=googleMapsOnLoad')
