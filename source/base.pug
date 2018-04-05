@@ -1,0 +1,15 @@
+//- base.pug
+doctype html
+html(lang='en-US')
+  head
+    //- Common meta
+    include pug/meta.pug
+    include pug/favicon.pug
+
+    title
+      block title
+
+    //- include pug/link.pug
+  body
+    #app
+      block main

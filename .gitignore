@@ -1,0 +1,74 @@
+# Numerous always-ignore extensions
+*.diff
+*.err
+*.orig
+*.log
+*.rej
+*.swo
+*.swp
+*.vi
+*~
+*.sass-cache
+
+# OS or Editor folders
+.DS_Store
+.cache
+.project
+.settings
+.tmproj
+nbproject
+Thumbs.db
+
+# NPM packages folder
+node_modules/
+
+# Output folders
+# build/
+# build/dev/
+# build/prod/
+# build/dev/fonts/
+# build/dev/images/
+# build/prod/fonts/
+# build/prod/images/
+
+# Fonts
+# fonts/
+
+# Libs
+lib/
+
+# Images
+# images/
+# images/brand/
+# images/cache/
+# images/README.md
+# images/fa/
+
+# Source
+# source/components/
+# source/README.md
+# source/pages/README.md
+# source/pages/index/README.md
+
+# Pug
+# source/pug/README.md
+source/pug/
+# source/pug/_analytics.pug
+# source/pug/_favicon.pug
+# source/pug/_link.pug
+# source/pug/_script.pug
+# source/pug/_mixins.pug
+# source/pug/_script.pug
+# source/pug/_variables.pug
+
+# Stylus
+source/styl/
+# source/styl/_font-faces.styl
+# source/styl/_google-fonts.styl
+# source/styl/_font-faces.styl
+# source/styl/_mixins.styl
+# source/styl/_variables.styl
+# source/styl/README.md
+
+# License
+# LICENSE.md
